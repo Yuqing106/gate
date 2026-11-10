@@ -72,6 +72,9 @@ DEFAULT_EDGE_HOSTS = [
     "best.hzample.kdns.fr:443",
     "ctsg.cfyx.aliyun.20237737.xyz:443",
     "china-unicom.cname.cloudflare.468123.xyz:443",
+    "edge1.example.com:443#日本-住宅-01$sstp://vpn:vpn@public-vpn-114.opengw.net:443",
+    "edge2.example.com:443#日本-住宅-02$sstp://vpn:vpn@public-vpn-242.opengw.net:443",
+    "edge1.example.com:443#韩国-机房-01$sstp://vpn:vpn@public-vpn-153.opengw.net:22494",
 ]
 
 DATA_CENTER_ORG_KEYWORDS = [
